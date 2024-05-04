@@ -49,6 +49,23 @@ cd busy-buy
 npm install
 ```
 
+### Configure Firebase
+
+1. Inside firebaseConfig.js, replace placeholders with your actual Firebase project configuration obtained from the Firebase console. Include details like API key, authentication domain, project ID, and Cloud Firestore configuration options.
+
+Example:
+
+```bash
+const firebaseConfig = {
+  apiKey: "your-firebase-api-key",
+  authDomain: "your-firebase-auth-domain.firebaseapp.com",
+  projectId: "your-firebase-project-id",
+  storageBucket: "your-firebase-bucket-id",
+  messagingSenderId: "your-firebase-messagingSender-id",
+  appId: "your-firebase-app-id",
+};
+```
+
 ## Project Structure
 
 This project adheres to a well-organized structure for better maintainability:
